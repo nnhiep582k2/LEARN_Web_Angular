@@ -3,4 +3,9 @@
     <span class="half" [style.width.%]="fill">&hearts;</span>
   </span>
 </ng-template>
-<ngb-rating [(rate)]="rating" [starTemplate]="t" [readonly]="true" [max]="5" />
+<ngb-rating
+  [(rate)]="rating"
+  [starTemplate]="t"
+  [readonly]="isReadonly"
+  [max]="5"
+/>
