@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Roboto&family=Creepster&display=swap");
+
+::selection {
+  color: white;
+  background-color: #ff9900;
+}
+
+.sr-sory {
+  display: none !important;
+}
